@@ -1,5 +1,5 @@
 (() => {
-  // ../library/index.js
+  // ../library/function-a.js
   var valueA = "function A";
   function functionA() {
     return valueA;

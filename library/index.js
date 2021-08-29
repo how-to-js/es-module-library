@@ -1,10 +1,2 @@
-const valueA = "function A",
-  valueB = "function B";
-
-export function functionA() {
-  return valueA;
-}
-
-export function functionB() {
-  return valueB;
-}
+export { functionA } from "./function-a.js";
+export { functionB } from "./function-b.js";
