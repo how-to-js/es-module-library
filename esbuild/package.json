@@ -1,0 +1,24 @@
+{
+  "name": "esbuild-starter",
+  "version": "1.0.0",
+  "description": "Code generator for simple esbuild application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild --bundle src/index.js --outfile=dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/how-to-js/esbuild-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/how-to-js/esbuild-starter/issues"
+  },
+  "homepage": "https://github.com/how-to-js/esbuild-starter#readme",
+  "devDependencies": {
+    "esbuild": "^0.12.24"
+  }
+}
